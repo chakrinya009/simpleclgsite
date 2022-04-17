@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>University webpage</title>
+   <link rel="stylesheet" href="clg.css">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+
+
+ <!-- ------icons-------- -->
+
+  <script src="https://kit.fontawesome.com/9c9b6c13f7.js" crossorigin="anonymous"></script>
+  
+  <!-- -----------icons--------- -->
+
+ </head>
+ <body>
+   <section class="sub-header">
+     <nav>
+       <a href="clg.html"><img src="eduford_img/logo.png" alt=""></a>
+       <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+         <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+         </ul>
+       </div>
+       <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+     </nav>
+
+      <h1>About Us</h1>
+
+   </section>
+
+
+   <!-- -----------about us content----------- -->
+   <section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's largest University</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, harum error temporibus, recusandae suscipit veniam ab omnis minus cum asperiores officia hic sed sequi, a exercitationem veritatis nisi! Quisquam, maiores!
+            Quis, quaerat eaque? Ducimus accusamus fugiat cum error enim beatae eum consequuntur nesciunt neque suscipit? Quisquam, quia illo consectetur reprehenderit atque eius est reiciendis alias deserunt inventore itaque quidem dolorem.</p>
+
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="eduford_img/about.jpg" alt="">
+        </div>
+    </div>
+   </section>
+   
+
+
+
+
+
+
+
+
+
+<!-- -----------footer----- -->
+
+<section class="footer" id="ABOUT">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo numquam ipsam ab! Cum incidunt, delectus rerum recusandae accusamus, excepturi ipsum, laudantium ad esse quis quia et voluptatum eos magnam. Deleniti.</p>
+  <div class="icons">
+    <i class="fa fa-facebook" aria-hidden="true"></i>
+    <i class="fa fa-twitter" aria-hidden="true"></i>
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+    <i class="fa fa-linkedin" aria-hidden="true"></i>
+  </div>
+  <p>Made with  <i class="fa-solid fa-heart"></i>  by <B>Chakrinya</B></p>
+</section> 
+
+
+
+
+
+              <!-- javascript -->
+  <script>
+    let navLinks = document.getElementById("navLinks")
+    function showMenu(){
+      navLinks.style.right="0";
+    }
+    function hideMenu(){
+      navLinks.style.right="-200px"
+    }
+  </script>
+
+  </body>  
+ </html>
