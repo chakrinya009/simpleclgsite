@@ -591,3 +591,9 @@ h3{
     /* box-sizing: border-box; */
     border: 1px solid #ccc;
 }
+
+.fa-heart:hover{
+    /* background-color: red; */
+    color:red;
+    overflow:hidden;
+}
